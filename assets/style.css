@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("./images/bedge_grunge_@2X.png");
+  font-family: "Playfair Display", serif;
+  
+}
+
+html {
+    overflow-x: visible;
+}
+
+.jumbotron {
+  background-image: url("./images/pink_october_snip.PNG");
+  background-size: cover;
+  height: max-content;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 0;
+}
+
+
+#jumbo-text {
+  text-shadow: 1px 2px white, 0 0 1em teal, 0 0 0.2em #e9967a;
+}
+
+#about {
+  font-size: 21px;
+  /* float: left;
+  width: 900px;
+  height: 300px;
+  margin-left: 3px; */
+}
+
+.fa {
+    padding: 0px;
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+
+footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
