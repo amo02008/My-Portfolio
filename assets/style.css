@@ -49,6 +49,9 @@ html {
     color: white;
   }
   
+  #port-card {
+      background-color: ivory;
+  }
 
 footer {
   text-align: center;
