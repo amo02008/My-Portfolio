@@ -4,7 +4,7 @@
 A responsive portfolio created to highlight projects and some personal Information.
 
 ## Getting Started
-Link to my portofolio.
+[Link to my portofolio.](https://amo02008.github.io/My-Portfolio/)
 
 ## License
 BSD 2-Clause License
