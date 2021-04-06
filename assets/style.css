@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    overflow-x: visible;
+    overflow-x: hidden !important;
 }
 
 .jumbotron {
@@ -57,7 +57,7 @@ footer {
   text-align: center;
   background-color: gray;
   color: white;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
